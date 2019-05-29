@@ -252,7 +252,7 @@
       <title>Sending mail (simple command)</title>
       <link>/developer-guide/deeper-areas/sending-mail-simple-command</link>
       <description>
-          <![CDATA[ Usage {#usage} ]]>
+          <![CDATA[ Usage {#usage}  _cis_connector_simple_mail($to, $message_subject, $message_body, $from); ]]>
       </description>
       <category></category>
       <guid>/developer-guide/deeper-areas/sending-mail-simple-command</guid>

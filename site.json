@@ -327,9 +327,9 @@
             "order": 3,
             "parent": "yIbfVmNtXJtpozlcm5oDryYJk0DQMXox",
             "title": "Sending mail (simple command)",
-            "description": "Usage {#usage}",
+            "description": "Usage {#usage}  _cis_connector_simple_mail($to, $message_subject, $message_body, $from);",
             "metadata": {
-                "updated": 1559151486,
+                "updated": 1559151549,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
@@ -337,9 +337,10 @@
                     "schema": [],
                     "tags": {
                         "h2": 1,
-                        "p": 2
+                        "p": 2,
+                        "code-sample": 1
                     },
-                    "elements": 3
+                    "elements": 4
                 }
             }
         },

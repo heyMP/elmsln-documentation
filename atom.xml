@@ -299,13 +299,13 @@
   <entry>
     <title>Sending mail (simple command)</title>
     <id>/developer-guide/deeper-areas/sending-mail-simple-command</id>
-    <updated>2019-05-29T11:38:06-06:00</updated>
+    <updated>2019-05-29T11:39:09-06:00</updated>
     <published>1969-12-31T17:00:00-07:00</published>
-    <summary>Usage {#usage}</summary>
+    <summary>Usage {#usage}  _cis_connector_simple_mail($to, $message_subject, $message_body, $from);</summary>
     <link href="/developer-guide/deeper-areas/sending-mail-simple-command"/>
     
     <content type="html">
-      <![CDATA[ Usage {#usage} ]]>
+      <![CDATA[ Usage {#usage}  _cis_connector_simple_mail($to, $message_subject, $message_body, $from); ]]>
     </content>
   </entry>
   <entry>
