@@ -11,3 +11,9 @@
  * Think of it like a sass mixin, where you can apply any css you want
  * inside of that block and it'll apply downstream. Two examples are given below
  */
+
+:root {
+  --haxcms-base-styles-list-padding-bottom: none;
+  --haxcms-base-styles-list-max-width: none;
+  line-height: 1.75;
+}

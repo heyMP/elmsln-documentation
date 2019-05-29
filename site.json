@@ -327,8 +327,21 @@
             "order": 3,
             "parent": "yIbfVmNtXJtpozlcm5oDryYJk0DQMXox",
             "title": "Sending mail (simple command)",
-            "description": null,
-            "metadata": {}
+            "description": "Usage {#usage}",
+            "metadata": {
+                "updated": 1559151486,
+                "readtime": 1,
+                "contentDetails": {
+                    "headings": 1,
+                    "paragraphs": 2,
+                    "schema": [],
+                    "tags": {
+                        "h2": 1,
+                        "p": 2
+                    },
+                    "elements": 3
+                }
+            }
         },
         {
             "id": "aU29sCuu8TdEc7rV7wsGyjqZBj6HCltO",
