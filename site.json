@@ -329,18 +329,18 @@
             "title": "Sending mail (simple command)",
             "description": "Usage {#usage}  _cis_connector_simple_mail($to, $message_subject, $message_body, $from);",
             "metadata": {
-                "updated": 1559151549,
+                "updated": 1559151575,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
-                    "paragraphs": 2,
+                    "paragraphs": 1,
                     "schema": [],
                     "tags": {
                         "h2": 1,
-                        "p": 2,
+                        "p": 1,
                         "code-sample": 1
                     },
-                    "elements": 4
+                    "elements": 3
                 }
             }
         },
