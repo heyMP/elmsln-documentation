@@ -210,17 +210,23 @@
             "title": "Roadmap",
             "description": "RoadmapThese are some systems and functionalities on the long term roadmap with the Core development team. These have come out of community conversations as well as whiteboard sessions with the team.",
             "metadata": {
-                "updated": 1559151283,
+                "updated": 1559151323,
                 "readtime": 1,
                 "contentDetails": {
                     "headings": 1,
                     "paragraphs": 2,
-                    "schema": [],
+                    "schema": [
+                        {
+                            "resource": "#b695fefb-53b6-fc59-fbfa",
+                            "prefix": "oer:http:\/\/oerschema.org\/ schema:http:\/\/schema.org\/ dc:http:\/\/purl.org\/dc\/terms\/ foaf:http:\/\/xmlns.com\/foaf\/0.1\/ cc:http:\/\/creativecommons.org\/ns# bib:http:\/\/bib.schema.org "
+                        }
+                    ],
                     "tags": {
                         "h1": 1,
-                        "p": 2
+                        "p": 2,
+                        "media-image": 1
                     },
-                    "elements": 3
+                    "elements": 4
                 }
             }
         },
