@@ -1,0 +1,16 @@
+<h2>Features Specification {#features-specification}</h2>
+<p>This is a Drupal specific connotation of how one should name and structure information when building out applications within elmsln. There are a four general layers to all distributions utilized in ELMSLN's many tools. They are: - Drupal core - Drupal.org / ELMSLN Contributed modules - Stack specific modules - Distribution specific modules</p>
+<h3>Drupal Core {#drupal-core}</h3>
+<p>We run a modified version of Drupal core for performance. This is not to be modified unless you are an ELMSLN core developer / submitting a patch.</p>
+<h3>Drupal.org / ELMSLN Contrib {#drupalorg-elmsln-contrib}</h3>
+<p>These modules come from Drupal.org, with several having been produced by ELMSLN core developers and released into general contrib as well. It is recommended to add projects here when incorporating generalizable contributed modules into ELMSLN's core package.</p>
+<h3>Stack specific modules {#stack-specific-modules}</h3>
+<p>These are contributed modules that are too specific to be included across all systems. Things like an Epub Exporter would only really make sense in the context of the MOOC/courses system for example.</p>
+<h3>Distribution specific modules {#distribution-specific-modules}</h3>
+<p>These are modules, features and themes produced specifically for use with one application. These have no use (generally speaking) outside the context of that assembled product.</p>
+<h2>Creating new functionality {#creating-new-functionality}</h2>
+<p>When creating a distribution for ELMSLN it should attempt to maximize flexibility by capturing configuration in such a way that it can be easily updated / reverted to original state after the fact. Generally you should name things like this for an example new system called Idea Engine (ie).</p>
+<p>profile path:<code>profiles/ie-7.x-1.x/</code>- Content Types that are core to the system:<code>modules/features/ie_types</code>- Views:<code>modules/features/ie_displays</code>- Contexts / blocks:<code>modules/features/ie_ux</code>- Contexts / blocks in regions specific to foundation access / ELMSLN:<code>modules/features/ie_cis_ux</code>- Permissions:<code>modules/features/ie_perms</code>- Custom code needed to make it run:<code>modules/ie_custom/ie_helper</code>- Custom theme (sub-theme of Foundation Access):<code>themes/ie_foundation_access</code>- Additional functionality (should include all views,contexts, types, etc):<code>modules/ie_extras/ie_tight_scope</code></p>
+<h3>Note on Permissions {#note-on-permissions}</h3>
+<p>Generally we treat permissions as a starting point and try to put them in their own feature using the defaultconfig module to capture them. This allows someone to import them as a starting point but then this won't get reverted down the road when we apply upgrades.</p>
+<p>If the permissions are critical to the application working correctly (Like students NOT being allowed to submit a section node for example) then section's permissions should be bundled with it as Features based configuration (which can be reverted). If it's a student wiki type (something more floaty / flexible) then defaultconfig is recommended.</p>
